@@ -33,14 +33,14 @@ Now you can `sort random_words` to get back to alphabetical order, or
 
 #### Finding Clue 11 ####
 
-Use the command `ls -la /bin` to get a big list of files. The 5th column in 
+Use the command `ls -la /usr/bin` to get a big list of files. The 5th column in 
 that list is the size of the file in bytes. Find the sort command to print the
 list of files with the largest file first, and then the rest indescending order.
 Your hint is the options you had to use. You'll need to use double quotes for
 your hint. For example, if your command was `sort -a -b -c`, your hint would
 be
 
-    python next_clue.py [secret] 11 "-a -b -c"
+    python3 next_clue.py [secret] 11 "-a -b -c"
     
 
 
