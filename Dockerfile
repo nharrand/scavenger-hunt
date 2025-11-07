@@ -20,9 +20,6 @@ RUN usermod -aG sudo ubnt && \
 #Create secret file in root directory
 RUN echo "acpi" > /root/secret
 
-# Create the scavenger-hunt directory
-RUN mkdir scavenger-hunt
-
 # Set the working directory
 WORKDIR /home/ubnt/scavenger-hunt
 
